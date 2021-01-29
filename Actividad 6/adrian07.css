@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+.amarillo{
+    display: block;
+    border-style: solid;
+    text-align: center;
+    width: 80%;
+    background-color: goldenrod;
+    margin-left: 10%;
+}
+.claroamarillo{
+    display: block;
+    border-style: solid;
+    width: 100%;
+    background-color: yellow;
+    float: left;
+    padding-bottom: 100px;
+    padding-right: 50px;
+}
+.claroazul{
+    display: block;
+    text-align: right;
+    border-style: solid;
+    float: left;
+    width: 100%;
+    background-color: skyblue;
+    padding-bottom: 119px;
+}
+.claromorado{
+    display: block;
+    border-style: solid;
+    width: 100%;
+    background-color: mediumpurple;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+.clarorosa{
+    display: block;
+    border-style: solid;
+    text-align: right;
+    float: left;
+    width: 100%;
+    background-color: mistyrose;
+    padding-bottom: 100px;
+    padding-right: 50px;
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    margin: 2% 2% 2% 2%;
+}
+.claroverde {
+  position: absolute;
+  top: 40%;
+  left: 32%;
+  width: 35%;
+  height: 30%;
+  border: green 4px solid;
+  background-color: darkgreen;
+  text-align: center;
+}
