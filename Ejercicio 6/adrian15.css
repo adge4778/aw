@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*
+Creamos un bloque main y le damos estas propiedades para
+que las imagenes se organicen como clumnas y le damos la
+distancia de separaion que queremos y el margen entre las 
+imagenes
+*/
+main{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    margin: 20% 20% 20%;
+}
+/*
+A las imagenes le damos el tamaño que queramos darle ya sea
+en pixeles o por el margen de la pagina y ponemos el tipo
+de borde que queremos*/
+img{
+    width: auto;
+    border: 5px solid black;
+}

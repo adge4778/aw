@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+header{
+    background-color: dimgray;
+    color: white;
+    clear: both;
+}
+.htmlYcss img{
+    float: left;
+    padding-left: 5%;
+    width: 15%;
+    padding-right: 2%;
+    display: block;
+    
+}

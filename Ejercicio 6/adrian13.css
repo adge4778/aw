@@ -1,0 +1,26 @@
+h1{
+    color: teal;
+}
+h2{
+    color: blue;
+}
+caption{
+    color: blue;
+}
+table{
+    caption-side: top;
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.especial{
+    color: orange;
+}
+div{
+    color: olive;
+}

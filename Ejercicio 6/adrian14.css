@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    color: mistyrose;
+}
+#buscador{
+    float: right;
+}
+.azul{
+    color: blue;
+    background-color: blue
+}
+#noticias{
+    width: 120px;
+    background-color: lightblue;
+    border: 3px solid lightblue;
+}
+#publicidad{
+    width: 120px;
+    background-color: lightgoldenrodyellow;
+    border: 3px dashed lightgoldenrodyellow;
+}
+#secundario{
+    width: 180px;
+    border: 3px solid orange;
+}
+h2{
+   background-color: orange;
+    color: black;
+}
+#principal{
+    width: 300px;
+}
+#contenedor{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+}
+#pie{
+    background-color: ghostwhite;
+    border: 2px solid ghostwhite;
+    clear: both;
+}

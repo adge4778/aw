@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    border-style: solid;
+}
+
+.biografia{
+    display: block;
+    float: left;
+    width: 25%;
+    background-color: whitesmoke;
+    color: darkgray;
+}
+.biografia img{
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.biografia2{
+    display: block;
+    float: left;
+    width: 75%;
+    background-color: darkorange;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 23%;
+    color: dimgrey;
+}
+footer{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    display: block;
+    border-style: solid;
+    clear: both;
+    padding: 1%;
+}
