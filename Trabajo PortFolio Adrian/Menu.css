@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+} 
+.LogoyNombre{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+a{
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: white; 
+    color: black;
+}
+.MenuPrincipal{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-right: 200px;
+    grid-gap: 100px;
+    color: black;
+    width: 100%;
+}
+img{
+    width: 30px;
+}
+.wrapper .input-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+.wrapper .input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid black;
+}
+.input-data input:focus ~ label{
+    transform: translateY(-20px);
+}
+.wrapper .input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.Teoria{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+iframe{
+    border: none;
+    border-radius: 10px;
+}
+@media (min-width:700px){
+    div{
+        grid-auto-flow: column;
+    }
+}
+div a:hover{
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+}
